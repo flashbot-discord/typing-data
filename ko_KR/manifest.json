@@ -1,0 +1,62 @@
+{
+  "locale": ["한국어", "korean"],
+  "files": [
+    "general.json"
+  ],
+  "groups": [
+    {
+      "id": "misc",
+      "name": "기타",
+      "description": "분류되지 않은 타자 데이터"
+    },
+    {
+      "id": "taebo",
+      "name": "태보",
+      "description": "'조혜련과 태보의 저주'에 나오는 대사들",
+      "fromDefault": "조혜련과 태보의 저주"
+    },
+    {
+      "id": "동짓달",
+      "name": "동짓달 기나긴 밤을",
+      "description": "<동짓달 기나긴 밤을> 시조",
+      "fromDefault": "<동짓달 기나긴 밤을> 시조"
+    },
+    {
+      "id": "namuwiki",
+      "name": "나무위키",
+      "description": "나무위키 대문에 있는 텍스트",
+      "fromDefault": "나무위키 대문 텍스트"
+    },
+    {
+      "id": "literature",
+      "name": "문학",
+      "description": "문학 작품들",
+      "subgroup": [
+        "동짓달",
+        "시",
+        "시조"
+      ]
+    },
+    {
+      "id": "poem",
+      "name": "시",
+      "description": "시 작품들",
+      "subgroup": [
+        "저녁에"
+      ]
+    },
+    {
+      "id": "시조",
+      "name": "시조",
+      "description": "시조 작품들",
+      "subgroup": [
+        "동짓달"
+      ]
+    },
+    {
+      "id": "저녁에",
+      "name": "저녁에",
+      "discription": "<저녁에>"
+    }
+  ]
+}
