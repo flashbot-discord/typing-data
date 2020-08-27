@@ -1,0 +1,19 @@
+{
+  "locale": ["영어", "english"],
+  "files": [
+    "general.json"
+  ],
+  "groups": [
+    {
+      "id": "misc",
+      "name": "기타",
+      "description": "분류되지 않은 문장들"
+    },
+    {
+      "id": "korea_202006_highsch_gr1_alltest_english",
+      "name": "2020학년도 고1 전국연합학력평가 영어 영역",
+      "description": "2020학년도 고1 전국연합학력평가 영어 영역에 나왔던 문장들",
+      "fromDefault": "부산광역시교육청"
+    }
+  ]
+}
